@@ -1,102 +1,35 @@
-header{
-	position: relative;
-}
-.menu-opcoes{
-	position: absolute;
-	bottom: 0;
-	right: 0;
-}
-
-.sacola{
-	position: absolute;
-	top: 0;
-	right: 0;
-	background: url(../img/sacola.png) no-repeat top right;
-	font-size: 14px;
-	padding-right: 35px;
-	text-align: right;
-	width: 140px;
-padding-top: 8px;
-}
-.menu-opcoes ul{
-	font-size: 15px;
-
-}
-.menu-opcoes ul li{
-	display: inline;
-	margin-left: 20px
-
-}
-.menu-opcoes a{
-	color: #003366;
-}
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-}
-.logo{ 
-display: left;
-
-}
-
 body {
   color: #333333;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
-p{
-   padding: 0 45px;
-    text-indent: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 940px;
 }
 h1 {
-	 padding: 10px;
     background-image: url(../img/sobre-background.jpg);
+    padding: 10px;
 }
-
 h2 {
-	 margin-top: 30px;
     border-bottom: 2px solid #333333;
+    margin-top: 30px;
 }
-body {
-    margin-left: auto;
-    margin-right: auto;
-    width: 940px;
-}
-/*.img {
+figure {
   background-color: #F2EDED;
   border: 1px solid #ccc;
-  padding: 10px 150px;
-  margin: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto
-}*/
+  text-align: center;
+  padding: 15px;
+  margin: 30px;
+
+}
 
 figcaption {
-  margin-top: 10px;
   font-style: italic;
- text-align: center;
+  margin-top: 10px;
 }
-#centro-distribuicao{
-	margin-left: auto;
-	margin-right: auto;
-	width: 550px;
-	display: block;
-}
-#rodape{
-	color: #777
-	margin: 30px 0;
-	padding: 30px 0;
-	width: 250px;
-	
+p {
+    padding: 0 45px;
+    text-indent: 15px;
 }
 #rodape img{
-	margin-right: 30px;
-	vertical-align: middle;
-	width 94px;
-}
-#familia-pelho {
-    float: right;
-    margin: 0 0 10px 10px;
+  width: 100px;
 }
